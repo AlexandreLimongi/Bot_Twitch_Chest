@@ -12,7 +12,7 @@ class twitchBot():
         self.browser.set_window_size(930, 862)
         self.username = username
         self.password = password
-        self.url = "https://www.twitch.tv/solary"
+        self.url = "https://www.twitch.tv/channel_you_want_bot"
         self.list_message_in_chat = open("message.txt", "r").readlines()
         print(len(self.list_message_in_chat))
         # for line in self.list_message_in_chat:
@@ -236,7 +236,7 @@ class twitchBot():
         #             button_coffre.click()
 
 if __name__ == "__main__":
-    twitchBot("ouiROBOT", "twitchbot*").bot()
+    twitchBot("your_username", "your_password").bot()
     # driver = webdriver.Chrome("chromedriver")
     # driver.get("http://www.google.com")
     # time.sleep(2)
