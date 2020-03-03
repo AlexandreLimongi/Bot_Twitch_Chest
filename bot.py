@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 import time
 import random
+# ALED
 
 class twitchBot():
     def __init__(self, username, password):
